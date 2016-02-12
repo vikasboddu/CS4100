@@ -54,7 +54,6 @@ public class Executor
 		boolean visual=true;
 //		exec.runGameTimed(new NearestPillPacMan(),new AggressiveGhosts(),visual);
 //		exec.runGameTimed(new StarterPacMan(),new StarterGhosts(),visual);
-//
 		exec.runGameTimed(new DFS_Controller_Vikas_Boddu(),new StarterGhosts(),visual);
 		//*/
 		
