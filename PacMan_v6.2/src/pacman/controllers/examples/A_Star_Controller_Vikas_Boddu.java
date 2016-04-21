@@ -73,7 +73,7 @@ public class A_Star_Controller_Vikas_Boddu extends Controller<MOVE> {
         return move;
     }
 
-    public boolean betterPacManNodeExists(PacManNode node, PriorityQueue<PacManNode> queue){
+    private boolean betterPacManNodeExists(PacManNode node, PriorityQueue<PacManNode> queue){
         int pacmanLocation = node.gameState.getPacmanCurrentNodeIndex();
         for(PacManNode pmn: queue){
             if(pmn.totalCost < node.totalCost && pmn.gameState.getPacmanCurrentNodeIndex() == pacmanLocation){
@@ -83,7 +83,7 @@ public class A_Star_Controller_Vikas_Boddu extends Controller<MOVE> {
         return false;
     }
 
-    public int getHeuristic(Game game) {
+    private int getHeuristic(Game game) {
         return game.getNumberOfActivePills() * 100;
    }
 }
