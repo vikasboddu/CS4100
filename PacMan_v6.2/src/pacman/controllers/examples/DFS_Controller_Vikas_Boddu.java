@@ -62,7 +62,7 @@ public class DFS_Controller_Vikas_Boddu extends Controller<MOVE> {
         return highMove;
     }
 
-    public int dfs_vikas(PacManNode rootGameState, int maxDepth) {
+    private int dfs_vikas(PacManNode rootGameState, int maxDepth) {
         int highScore = -1;
         Stack<PacManNode> stack = new Stack<>();
         stack.push(rootGameState);

@@ -54,7 +54,10 @@ public class Executor
 		boolean visual=true;
 //		exec.runGameTimed(new NearestPillPacMan(),new AggressiveGhosts(),visual);
 //		exec.runGameTimed(new StarterPacMan(),new StarterGhosts(),visual);
-		exec.runGameTimed(new A_Star_Controller_Vikas_Boddu(),new StarterGhosts(),visual);
+//
+//		TO RUN: Add Controller as the first variable. For example:
+//		exec.runGameTimed(new A_Star_Controller_Vikas_Boddu() ,new StarterGhosts(),visual);
+// 		UNCOMMENT THIS LINE: exec.runGameTimed(new _Controller_Vikas_Boddu() ,new StarterGhosts(),visual);
 		//*/
 		
 		/*
