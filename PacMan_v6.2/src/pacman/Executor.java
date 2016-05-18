@@ -75,7 +75,6 @@ public class Executor
 		exec.runGameTimedRecorded(new HumanController(new KeyBoardInput()),new RandomGhosts(),visual,fileName);
 		//exec.replayGame(fileName,visual);
 		 */
-		//gittesttest
 	}
 
     /**
